@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Styling the article element</title>
+  <script>document.createElement("myHero")</script>
+  <style>
+  myHero {
+      display:block;
+      background-color:#ddd;
+      padding: 10px;
+      font-size: 15px;
+  }  
+  </style>
+<meta name="viewport" content="width=device-width; initial-scale=1.5; maximum-scale=2.0; user-scalable=0;"/>
+</head>
+<body>
+
+<myHero>select Ohayo wake time</myHero>
+<form action="/cgi-bin/settime.cgi">
+wake time:<br>
+<input type="time" name="wake">
+<br><br>
+<input type="submit">
+</form>
+
+</body>
+</html>
+
