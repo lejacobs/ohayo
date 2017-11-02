@@ -1,4 +1,14 @@
 #! /bin/bash
-echo -e "Location: http://ohayo/index.html\n\n"
 mpc stop
 mpc clear
+echo Content-type: text/html
+echo
+
+cat << EOF
+
+<HTML>
+
+<meta http-equiv="Refresh" content="1; url=/">
+
+</HTML>
+

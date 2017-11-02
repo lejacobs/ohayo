@@ -8,10 +8,8 @@ print "Content-Type: text/html"
 print
 print """\
 <html>
-<body>
-<h2>Hello World!</h2>
-</body>
-</html>
+<meta http-equiv="Refresh" content="1; url=/">
+</HTML>
 """
 
 cronfilename = "/usr/lib/cgi-bin/openDir/cronwake.txt"

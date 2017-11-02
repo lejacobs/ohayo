@@ -1,3 +1,12 @@
 #! /bin/bash
 sudo /usr/bin/amixer -q sset Headphone 10
-echo -e "Location: http://ohayo/index.html\n\n"
+echo Content-type: text/html
+echo
+
+cat << EOF
+
+<HTML>
+
+<meta http-equiv="Refresh" content="1; url=/">
+
+</HTML>

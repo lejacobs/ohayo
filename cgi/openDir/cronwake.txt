@@ -1,1 +1,1 @@
-36 07 * * * /usr/lib/cgi-bin/wakeup.sh
+01 07 * * * /usr/lib/cgi-bin/wakeup.sh
